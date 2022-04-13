@@ -47,7 +47,7 @@ export default function Profile(){
                             </h1>
 
                             <span className='profile-role-tagline'>
-                                Goal Driven Individual with a passion for Software Development and Cyber Security!
+                                Goal Driven technoligist with a passion for Software Development and Cyber Security!
                             </span>
                         </span>
                     </div>

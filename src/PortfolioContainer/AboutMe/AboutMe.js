@@ -20,10 +20,7 @@ export default function AboutMe(props){
         description: "I am looking forward to using my knowledge of software development, cyber security, and networking to grow with a company to produce results as I graduate from Grand Canyon University. I am mission-oriented individual who is currently involved with the GCU Honors College, Information Technology Club, Cyber Security Club at Grand Canyon  University",
         highlights: {
             bullets:[
-                "Cloud Platforms: AWS, Google Cloud, Heroku, Azure,Vmware, Virtual Box ",
-                "Cloud Platforms: AWS, Google Cloud, Heroku, Azure,Vmware, Virtual Box ",
-                "Cloud Platforms: AWS, Google Cloud, Heroku, Azure,Vmware, Virtual Box ",               
-                 "Cloud Platforms: AWS, Google Cloud, Heroku, Azure,Vmware, Virtual Box ",
+                "I was born and raised in Fresno California",
                 
             ],
             heading: "Here are a few Highlights:"

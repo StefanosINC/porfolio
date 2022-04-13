@@ -48,79 +48,112 @@ export default function Resume(props){
 
     const projectDetails =[
         {
-            title: "Personal Portfolio Website",
-            duration: {fromDate: "2021", toDate: "2022"},
-            description: "A personal Portfolio Website to showcase my projects and experience in one place",
-            subHeading: "Technologies Used: React JS, BootStrap"
+            title: "Bachelors Of Science Software Development, Minor in Cyber Security",
+            duration: {fromDate: "2019", toDate: "2022"},
+            description: "GPA - 3.62",
+            subHeading: "Honors College Graduate"
         },
         {
-            title: "Personal Portfolio Website",
-            duration: {fromDate: "2021", toDate: "2022"},
-            description: "A personal Portfolio Website to showcase my projects and experience in one place",
-            subHeading: "Technologies Used: React JS, BootStrap"
+            title: "Clovis Community College",
+            duration: {fromDate: "2018", toDate: "2019"},
+            description: "GPA - 3.4",
+            subHeading: "Completed General Education courses for 1 year before transfering to Grand Canyon University"
         },
         {
-            title: "Personal Portfolio Website",
-            duration: {fromDate: "2021", toDate: "2022"},
-            description: "A personal Portfolio Website to showcase my projects and experience in one place",
-            subHeading: "Technologies Used: React JS, BootStrap"
+            title: "Clovis West High School",
+            duration: {fromDate: "2014", toDate: "2018"},
+            description: "Varsity Tennis Player, Recipiant of the Eagle Charachter Award",
+            subHeading: "High School Diploma"
         }
     ];
     const resumeBullets =[
             // {label: "Education", logoSrc: ""},
             {label: "Work History", logoSrc: "work-history.png"},
-            {label: "Programming Skills", logoSrc: "programming-skills.png"},
             {label: "Projects", logoSrc: "projects.png"},
-            {label: "Interests", logoSrc: "interests.png"},
+            {label: "Programming Skills", logoSrc: "programming-skills.png"},
+            {label: "Education", logoSrc: "work-history.png"},
+           
+         
     ];
 
     const programmingSkillsDetails=[
         {skill: "JavaScript", ratingPercentage: 50},
-        {skill: "Java", ratingPercentage: 50},
-        {skill: "Node JS", ratingPercentage: 50},
-        {skill: "Express JS", ratingPercentage: 50},
-        {skill: "Angular JS", ratingPercentage: 50},
-        {skill: "HTML", ratingPercentage: 50},
-        {skill: "CSS", ratingPercentage: 50},
-        {skill: "SQL ", ratingPercentage: 50},
-        {skill: "MongoDB", ratingPercentage: 50},
+        {skill: "Java", ratingPercentage: 80},
+        {skill: "Node JS", ratingPercentage: 45},
+        {skill: "Express JS", ratingPercentage: 45},
+        {skill: "Angular JS", ratingPercentage: 60},
+        {skill: "HTML", ratingPercentage: 90},
+        {skill: "CSS", ratingPercentage: 90},
+        {skill: "SQL ", ratingPercentage: 85},
+        {skill: "MongoDB", ratingPercentage: 80},
+        {skill: "React", ratingPercentage: 40},
     ];
 
     const resumeDetails =[
         <div className='resume-screen-container' key='education'>
+
             <ResumeHeading
-            heading={"Grand Canyon University"}
-            subHeading={"Bachelors of Science in Software Development, Minor in Cyber Security"}
+            heading={"Incomming Developer Intern at BitPay"}
+            subHeading={"Waiting expected Start Date"}
+            fromDate={"2022"}
+            toDate={"2022"}
+
+            />
+
+
+            <ResumeHeading
+            heading={"Amva Corporation"}
+            subHeading={"Provided direct supports and mental health services to adults with intellectual/developmental disabilities with a dual diagnosis. Supports include: providing environmental and management, structured life skill acquisition, proactive antecedent intervention. Other inquiry duties included: technology skills training, and IT support for 12+ documentation systems. "}
             fromDate={"2019"}
             toDate={"2022"}
 
             />
                <ResumeHeading
-            heading={"Grand Canyon University"}
-            subHeading={"Bachelors of Science in Software Development, Minor in Cyber Security"}
-            fromDate={"2019"}
-            toDate={"2022"}
+            heading={"BestBuy/GeekSquad"}
+            subHeading={"Consultant Agent, Apple Repair Specialist and Responsible for creating service orders, shipping, receiving and communications with manufactures. Repaired hardware and software issues with clients in a high stress environment."}
+            fromDate={"03-2021 "}
+            toDate={"08-2021"}
             
             />
-               <ResumeHeading
-            heading={"Grand Canyon University"}
-            subHeading={"Bachelors of Science in Software Development, Minor in Cyber Security"}
-            fromDate={"2019"}
-            toDate={"2022"}
-            
-            />
+         
         </div>,
       
       <div className='resume-screen-container' key='work-experience'>
 
       <ResumeHeading
-      heading={"Grand Canyon UniTechnologyersity"}
-      subHeading={"BitPay Intern"}
-      fromDate={"2019"}
+      heading={"WorkXTimeAndAttendance - Senior Capstone"}
+      subHeading={"Technologies Used: MongoDB, AngularJS, SpringBoot"}
+      fromDate={"2021"}
       toDate={"2022"}
       
       />
-      <div className='experience-description'>
+    <a href="url">Demo</a>
+      
+<ResumeHeading
+      heading={"Albums4You - Inventory Management Project "}
+      subHeading={"Technologies SpringBoot, MongoDB Thymeleaf"}
+      fromDate={"2021"}
+      toDate={"2022"}
+      
+      />
+      <a href="url">Demo</a>
+      <ResumeHeading
+      heading={"Security Onion - Cyber Security Research Project"}
+      subHeading={"Technologies Used: Kali Linux"}
+      fromDate={"2022"}
+      toDate={"Unknown"}
+      
+      />
+         <a href="url">Demo</a>
+      <ResumeHeading
+      heading={"React Native Research Proejct"}
+      subHeading={"-Technolgies Used: FireBase, React"}
+      fromDate={"2022"}
+      toDate={"Unknown"}
+      
+      />
+           <a href="url">Demo</a>
+      {/* <div className='experience-description'>
           <span className='resume-description-text'>
               Currently working in MERN web Stack and a dev sjob
           </span>
@@ -138,7 +171,7 @@ export default function Resume(props){
                 - asdflajsd;flkajsd;lfkjals;dkfj
                 </span>
                 
-        </div>
+        </div> */}
         </div>,
 
         
