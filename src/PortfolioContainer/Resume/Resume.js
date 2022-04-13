@@ -127,8 +127,10 @@ export default function Resume(props){
       toDate={"2022"}
       
       />
-    <a href="url">Demo</a>
-      
+      <div className='links'>
+    <a href="url">Demo  </a>
+    <a href="url">Documentation</a>
+    </div>
 <ResumeHeading
       heading={"Albums4You - Inventory Management Project "}
       subHeading={"Technologies SpringBoot, MongoDB Thymeleaf"}
@@ -136,7 +138,10 @@ export default function Resume(props){
       toDate={"2022"}
       
       />
-      <a href="url">Demo</a>
+      <div className='links'>
+    <a href="url">Demo  </a>
+    <a href="url">Documentation</a>
+    </div>
       <ResumeHeading
       heading={"Security Onion - Cyber Security Research Project"}
       subHeading={"Technologies Used: Kali Linux"}
@@ -144,15 +149,21 @@ export default function Resume(props){
       toDate={"Unknown"}
       
       />
-         <a href="url">Demo</a>
+        <div className='links'>
+    <a href="url">Demo  </a>
+    <a href="url">Documentation</a>
+    </div>
       <ResumeHeading
       heading={"React Native Research Proejct"}
-      subHeading={"-Technolgies Used: FireBase, React"}
+      subHeading={"Technolgies Used: FireBase, React"}
       fromDate={"2022"}
       toDate={"Unknown"}
       
       />
-           <a href="url">Demo</a>
+       <div className='links'>
+    <a href="url">Demo  </a>
+    <a href="url">Documentation</a>
+    </div>
       {/* <div className='experience-description'>
           <span className='resume-description-text'>
               Currently working in MERN web Stack and a dev sjob

@@ -9,10 +9,15 @@ export default function Profile(){
                     <div className ='colz'>
                         <div className='colz-icon'>
                         <a href='https://github.com/StefanosINC'>
-                            <i className='fa fa-github-square' style={{fontSize:100}}></i>
+                            <i className='fa fa-github-square' style={{fontSize:100}}>
+                                <h5>Github Portfolio</h5> 
+                            </i>
                         </a>
                         <a href='https://www.linkedin.com/in/stefanos-sophocleous-736733194/'>
-                            <i className='fa fa-linkedin' style={{fontSize:100}}></i>
+                            <i className='fa fa-linkedin' style={{fontSize:100}}>
+
+                            <h5>LinkedIn Profile</h5> 
+                            </i>
     
                         </a>
                         </div>
